@@ -1,16 +1,24 @@
-  var rand = 0;
+    var rand = 0;
 var word = "";
 var numWrong = 0;
 var numRight = 0;
 var phraseLength = 0;
 var numChar = 0;
-var phrases = ["Early bird gets the worm", "Read between the lines", "I can eat a horse", "Twenty-four seven", "Cat got your tounge", "One in one million", "I beg to differ", "Easier said than done", "Add insult to injury", "Don't cry over spilled milk", "Curiosity killed the cat", "Two peas in a pod", "That's the last straw", "Piece of cake", "Speak of the devil", "Go the whole nine yards", "An eye for an eye", "Hit the hay", "Stab someone in the back", "Quit cold turkey", "Cut to the chase", "Best of both worlds", "Kill two birds with one stone", "Break a leg", "Hit the nail on the head", "Kick the bucket"]; 
+var phrases = ["Early bird gets the worm", "Read between the lines", "I can eat a horse", "Twenty-four seven", "Cat got your tounge", 
+"One in one million", "I beg to differ", "Easier said than done", "Add insult to injury", "Don't cry over spilled milk", "Curiosity killed the cat", 
+"Two peas in a pod", "That's the last straw", "Piece of cake", "Speak of the devil", 
+"Go the whole nine yards", "An eye for an eye", "Hit the hay", "Stab someone in the back", "Quit cold turkey", 
+"Cut to the chase", "Best of both worlds", "Kill two birds with one stone", "Break a leg", "Hit the nail on the head", "Kick the bucket"]; 
 
 
-var movies = ["Iron Man", "Thor", "Black Panther", "Ant-Man and the Wasp", "Captain Marvel", "Avengers: Endgame", "Ant-Man", "Doctor Strange", "Man of Steel", "Suicide Squad", "Wonder Woman", "Justice League", "Aquaman"];
+var movies = ["Iron Man", "Thor", "Black Panther", "Ant-Man and the Wasp", "Captain Marvel", "Avengers: Endgame", "Ant-Man", 
+"Doctor Strange", "Man of Steel", "Suicide Squad", "Wonder Woman", "Justice League", "Aquaman", "Avengers: Endgame", "Joker", "Dolittle", 
+"Avatar", "Incredibles", "Daedpool"];
 
 
-var songs = ["Bohemian Rhapsody", "Hey Jude", "Sweet Child O'Mine", "Hotel California", "Someone You Loved", "Memories", "Girls Like You", "Bad Guy", "Old Town Road", "Sucker", "Imagine", "Dance Monkey", "Money In The Grave", "Nasa", "Shallow", "God's Plan", "Sad", "Havana", "Happier", "Alone", "Taki Taki", "Youngblood"];
+var songs = ["Bohemian Rhapsody", "Hey Jude", "Sweet Child O'Mine", "Hotel California", "Someone You Loved", "Memories",
+ "Girls Like You", "Bad Guy", "Old Town Road", "Sucker", "Imagine", "Dance Monkey", "Money In The Grave", "Nasa", "Shallow",
+  "God's Plan", "Sad", "Havana", "Happier", "Alone", "Taki Taki", "Youngblood", "All of Me", "See You Again", "Payphone", "Hall of Fame", "Unforgettable"];
 var challenges = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
 function sp(){
